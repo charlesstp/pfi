@@ -1,0 +1,177 @@
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+
+}
+
+#header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+#nav {
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+#footer{
+    padding: 1em;
+    background-color: grey;
+}
+
+#grille_flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    border: 1px solid black;
+}
+
+#grille_flex_index {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.photo_ronde {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo{
+    width: 13em;
+    height: 10em;
+}
+
+.case {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1 0 16.66%; /*16.66% car il y a 6 colonnes*/
+    box-sizing: border-box;
+    /*la propriété box-sizing sert à définir la façon dont la hauteur et la largeur
+    totale d'un élément est calculée. Aussi j'ai utilisé le border-box pour ajuster
+    les colonnes et les rangées de mon horaire. J'ai utilisé mozilla pour m'aider.*/
+    text-align: center;
+}
+
+.math {
+    background-color: lightblue;
+}
+
+.éthique {
+    background-color: lightgreen;
+}
+
+.exploitation {
+    background-color: lightpink;
+}
+
+.conception {
+    background-color: lightsalmon;
+}
+
+.vide {
+    background-color: white;
+}
+
+.lienNav {
+    padding: 1em;
+}
+
+.lienFooter {
+    float: right;
+}
+
+.listeSansMarqueur {
+    list-style: none;
+}
+
+.backgroundColorIndex {
+    background-color: aqua;
+}
+
+.backgroundColorProfession {
+    background-color: lightgreen;
+}
+
+.backgroundColorSujet {
+    background-color: lightgreen;
+}
+
+.backgroundColorGalerie {
+    background-color: lightgreen;
+}
+
+.backgroundColorSource {
+    background-color: lightgreen;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 21px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: aqua
+}
+
+.photo_sujet {
+    width: 24em;
+    height: 17em;
+    padding: 30px;
+}
+
+.photo_galerie {
+    width: 34.5em;
+    height: 27em;
+    padding: 40px;
+}
+
+.logo_playstation {
+    width: 4em;
+    height: 4em;
+    float: right;
+}
+
+
+
+
+/*lien déjà visité*/
+a:visited {
+    color: white;
+}
+
+/*lien non visité*/
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}

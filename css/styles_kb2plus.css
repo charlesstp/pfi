@@ -1,0 +1,31 @@
+/*C'est pour styliser la partie input de first name et last name*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/*Attribut CSS (text-shadow) pour mettre de l'ombre sur du texte*/
+h1{
+    text-shadow: 2px 2px;
+}
+
+/*Attribut css pour faire des animations sans utiliser de javascript*/
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/*CSS pour faire le bouton*/
+.bouton {
+    margin: 30px;
+  }
